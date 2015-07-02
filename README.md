@@ -71,4 +71,14 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 root@ruo91:~# nginx -s reload
 ```
+#### - Codis Dashboard
+Overview
+--------
+![Overview][0]
+![Server Groups][1]
+![Slot Control & Migrate Status & Proxy Status][2]
+
 Thanks. :-)
+[0]: http://cdn.yongbok.net/ruo91/img/docker/codis/codis_dashboard_0.png
+[1]: http://cdn.yongbok.net/ruo91/img/docker/codis/codis_dashboard_1.png
+[2]: http://cdn.yongbok.net/ruo91/img/docker/codis/codis_dashboard_2.png

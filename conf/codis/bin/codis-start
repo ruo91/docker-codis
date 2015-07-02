@@ -6,6 +6,7 @@
 CODIS_HOME=/opt/codis
 CODIS_CONF=$CODIS_HOME/conf/config.ini
 PATH=$PATH:$CODIS_HOME/bin
+BASENAME=`basename "$0"`
 
 # 1. Dashboard
 function f_dashboard {
@@ -82,9 +83,8 @@ function f_all {
 # Help
 function f_help {
   # Usage
-  BASENAME=`basename "$0"`
   echo
-  echo "Usage: $BASENAME [COMMAND]"
+  echo "Usage: $BASENAME [COMMAND] [start]"
   echo
   echo "dashboard                       : Start dashboard"
   echo "redis                           : Start redis"

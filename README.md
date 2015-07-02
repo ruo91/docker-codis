@@ -21,7 +21,7 @@ root@ruo91:~# docker run -d --name="codis" -h "codis" \
 #### - Codis start
 ```sh
 root@ruo91:~# docker exec codis /bin/bash codis-start --help
-Usage: codis-start [COMMAND]
+Usage: codis-start [COMMAND] [start]
 
 dashboard                       : Start dashboard
 redis                           : Start redis
